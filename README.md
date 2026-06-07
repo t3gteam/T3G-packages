@@ -35,5 +35,3 @@ Root workspace dùng Yarn 4 và cấu hình scope `@t3gteam` trong [.yarnrc.yml]
 yarn npm login --scope t3gteam --publish
 yarn workspace @t3gteam/lexorank publish:github
 ```
-
-Không commit token vào repo. Nếu dùng CI, lưu token trong GitHub Secrets.
