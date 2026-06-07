@@ -582,9 +582,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@t3g/lexorank@workspace:packages/lexorank":
+"@t3gteam/lexorank@workspace:packages/lexorank":
   version: 0.0.0-use.local
-  resolution: "@t3g/lexorank@workspace:packages/lexorank"
+  resolution: "@t3gteam/lexorank@workspace:packages/lexorank"
   dependencies:
     "@types/node": "npm:^20.14.10"
     tsup: "npm:^8.1.0"

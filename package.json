@@ -6,9 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspace @t3g/lexorank build",
-    "test": "yarn workspace @t3g/lexorank test",
-    "typecheck": "yarn workspace @t3g/lexorank typecheck"
+    "build": "yarn workspace @t3gteam/lexorank build",
+    "test": "yarn workspace @t3gteam/lexorank test",
+    "typecheck": "yarn workspace @t3gteam/lexorank typecheck"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
