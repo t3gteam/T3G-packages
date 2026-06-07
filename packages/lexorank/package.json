@@ -29,6 +29,10 @@
     "registry": "https://npm.pkg.github.com",
     "access": "restricted"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3gteam/T3G-packages.git"
+  },
   "devDependencies": {
     "@types/node": "^20.14.10",
     "tsup": "^8.1.0",
