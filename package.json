@@ -1,0 +1,20 @@
+{
+  "name": "t3g-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspace @t3g/lexorank build",
+    "test": "yarn workspace @t3g/lexorank test",
+    "typecheck": "yarn workspace @t3g/lexorank typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3",
+    "vitest": "^1.6.0"
+  },
+  "packageManager": "yarn@4.5.0"
+}
